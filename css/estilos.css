@@ -1,6 +1,10 @@
 body {
 	background-image: url("../img/fondo.png");
 	background-position: center;
+
+	/* -- CENTRAR EL BLOQUE CONTENEDOR -- */
+	display: flex;
+	justify-content: center; 
 }
 
 #contenedor {
@@ -8,9 +12,50 @@ body {
 	max-width: 960px;
 	background: rgba(255, 255, 255, 0.90);
 	padding: 1.5em;
-	margin: 2em auto;
+	margin: 2em 0;
 	border-radius: 0.9em;
-	border: 0.2em solid #073040
+	border: 0.2em solid #073040;
+}
+
+/* -- COLUMNAS -- */
+
+#cajaGrande {
+	display: flex;
+	gap: 1.5em;
+}
+
+/* -- MISMO TAMAÑO -- */
+
+#cajaGrande section {
+	flex: 1;
+}
+
+/* -- COLUMNAS -- */
+
+#cajaDiferente {
+	display: flex;
+	gap: 1.5em;
+}
+
+/* -- DIFERENTE TAMAÑO -- */
+
+.chica {
+	flex: 1;
+}
+
+.grande {
+	flex: 2;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0.5em auto;
+}
+
+header {
+	text-align: center;
 }
 
 h1, h2, h3 {
@@ -25,4 +70,60 @@ h1, h2, h3 {
 strong, em {
 	font-family: "Arvo", serif;
 	font-size: 0.8em;
+}
+
+
+/* --- DEJO EL MENÚ HORIZONTAL Y DEFINO EL COMPORTAMIENTO DE LOS LINKS --- */
+
+nav {
+	text-align: center;
+	margin-bottom: 1.8em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0.3em;
+}
+
+nav a {
+	background-color: lightblue;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	border: 0.2em solid darkblue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background-color: #c47c2e;
+}
+
+a:link {
+	color: darkblue;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: cyan;
+}
+
+a:active {
+	color: yellow;
+}
+
+footer {
+	background-color: #c47c2e;
+	text-align: center;
+	padding: 0.1em;
+	border: 0.1em solid darkblue;
+	border-radius: 0.5em;
 }
