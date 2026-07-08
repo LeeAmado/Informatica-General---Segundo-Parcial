@@ -12,3 +12,17 @@ body {
 	border-radius: 0.9em;
 	border: 0.2em solid #073040
 }
+
+h1, h2, h3 {
+	background-color: cyan;
+	border: 0.1em solid darkblue;
+	font-family: "Arvo", serif;
+	text-align: center;
+	padding: 0.4em;
+	border-radius: 0.5em;
+}
+
+strong, em {
+	font-family: "Arvo", serif;
+	font-size: 0.8em;
+}
