@@ -1,2 +1,5 @@
-# Informatica-General---Segundo-Parcial
-Artes Multimediales - Universidad Nacional de las Artes
+Lee Sebastian Amado Lopez
+
+Segundo Parcial - Informática General
+
+Artes Multimediales - UNA
