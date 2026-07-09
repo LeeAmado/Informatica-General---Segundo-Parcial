@@ -1,4 +1,5 @@
 body {
+	margin: 0;
 	background-image: url("../img/fondo.png");
 	background-position: center;
 
@@ -67,6 +68,8 @@ h1, h2, h3 {
 	border-radius: 0.5em;
 }
 
+/* -- TIPOGRAFÍA TAMBIÉN A LOS DESTACADOS -- */
+
 strong, em {
 	font-family: "Arvo", serif;
 	font-size: 0.8em;
@@ -126,4 +129,34 @@ footer {
 	padding: 0.1em;
 	border: 0.1em solid darkblue;
 	border-radius: 0.5em;
+}
+
+/* -- DATO CURIOSO -- */
+
+.dato-curioso {
+	background-color: #dff7ff;
+	border: 0.15em solid darkblue;
+	border-radius: 0.6em;
+	padding: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.dato-curioso p {
+	min-height: 4.5em;
+}
+
+.dato-curioso button {
+	padding: 0.6em 1em;
+	background-color: lightblue;
+	border: 0.15em solid darkblue;
+	border-radius: 0.5em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.dato-curioso button:hover {
+	background-color: #c47c2e;
+	color: white;
 }
