@@ -160,3 +160,29 @@ footer {
 	background-color: #c47c2e;
 	color: white;
 }
+
+/* ---------------- GALERÍA ---------------- */
+
+#galeria{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	gap:1.5em;
+}
+
+#galeria article{
+	background:white;
+	border:0.15em solid darkblue;
+	border-radius:0.5em;
+	padding:1em;
+	text-align:center;
+	min-width:250px; /* MODIFICAR TAMAÑOS, MÁXIMOS. VER OPCIONES */
+}
+
+.obraGrande{
+	flex:2;
+}
+
+.obraChica{
+	flex:1;
+}

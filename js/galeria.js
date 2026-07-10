@@ -12,7 +12,8 @@ let obras = [
 		anio: "2024",
 		imagen1: "img/amplificadas.jpg",
 		imagen2: "img/amplificadas1.jpg",
-		opcion1: true
+		opcion1: true,
+		clase: "obraChica"
 	},
 
 	{
@@ -20,7 +21,8 @@ let obras = [
 		anio: "2023",
 		imagen1: "img/atoms.jpg",
 		imagen2: "img/atoms1.jpg",
-		opcion1: true
+		opcion1: true,
+		clase: "obraGrande"
 	},
 
 	{
@@ -28,7 +30,8 @@ let obras = [
 		anio: "2024",
 		imagen1: "img/imagenestecnicas.jpg",
 		imagen2: "img/imagenestecnicas1.jpg",
-		opcion1: true
+		opcion1: true,
+		clase: "obraChica"
 	},
 
 	{
@@ -36,7 +39,8 @@ let obras = [
 		anio: "2025",
 		imagen1: "img/insilico.jpg",
 		imagen2: "img/insilico1.jpg",
-		opcion1: true
+		opcion1: true,
+		clase: "obraChica"
 	},
 
 	{
@@ -44,7 +48,8 @@ let obras = [
 		anio: "2014",
 		imagen1: "img/teoriamatematica.jpg",
 		imagen2: "img/teoriamatematica1.jpg",
-		opcion1: true
+		opcion1: true,
+		clase: "obraChica"
 	}
 
 ];
@@ -54,6 +59,9 @@ for(let i = 0; i < obras.length; i++){
 
 	// Creamos un artículo para cada obra
 	let obra = document.createElement("article");
+
+	// Asignamos la clase correspondiente
+	obra.className = obras[i].clase;
 
 	// Creamos el título
 	let titulo = document.createElement("h3");
