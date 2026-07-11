@@ -55,8 +55,12 @@ img {
 	margin: 0.5em auto;
 }
 
-header {
-	text-align: center;
+header{
+	background:#0b6fa4;
+	color:white;
+	padding:2em;
+	text-align:center;
+	border-radius:10px 10px 0 0;
 }
 
 h1, h2, h3 {
@@ -176,7 +180,7 @@ footer {
 	border-radius:0.5em;
 	padding:1em;
 	text-align:center;
-	min-width:250px; /* MODIFICAR TAMAÑOS, MÁXIMOS. VER OPCIONES */
+	min-width:150px;  /*MODIFICAR TAMAÑOS, MÁXIMOS. VER OPCIONES */
 }
 
 .obraGrande{
@@ -185,4 +189,73 @@ footer {
 
 .obraChica{
 	flex:1;
+}
+
+/* ------------ EJERCICIO ------------------- */
+
+form{
+	background:#dff1fb;
+	padding:1.5em;
+	border:0.2em solid #0b6fa4;
+}
+
+fieldset{
+	margin-bottom:1.5em;
+	padding:1em;
+	border:0.15em solid #0b6fa4;
+	background:white;
+}
+
+legend{
+	background:#0b6fa4;
+	color:white;
+	padding:0.3em 0.8em;
+	font-weight:bold;
+}
+
+label{
+	display:block;
+	margin-top:1em;
+	font-weight:bold;
+}
+
+input{
+	width:100%;
+	padding:0.6em;
+	margin-top:0.3em;
+	margin-bottom:0.8em;
+	border:0.1em solid #0b6fa4;
+	border-radius:4px;
+}
+
+button{
+	background:#0b6fa4;
+	color:white;
+	padding:0.7em 1.2em;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	margin-right:0.5em;
+	margin-top:0.8em;
+}
+
+button:hover{
+	background:#1591d0;
+}
+
+/* Botones deshabilitados */
+
+button:disabled{
+	background:#999;
+	cursor:default;
+} 
+
+#resultado{
+	margin-top:2em;
+	padding:1em;
+	background:#eef9ff;
+	border:0.15em solid #0b6fa4;
+	font-weight:bold;
+	line-height:1.7;
 }

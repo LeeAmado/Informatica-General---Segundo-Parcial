@@ -28,10 +28,79 @@
      			<!-- Galería con js -->
      			<div id="galeria"></div>
      		</section>
-     		<article>
-     			<h2>Ejercicio</h2>
-     			<p></p>
-     		</article>
+
+     		<!-- EJERCICIO -->
+     		<section> 
+     			<h2>Producción de instalaciones interactivas</h2>
+     			<p>Gestión de la producción del estudio artístico de Casey Reas.</p>
+
+     			<form>
+
+			<!-- CANTIDAD DE INSTALACIONES -->
+
+			<fieldset>
+				<legend>Inicio</legend>
+				<label for="cantidad">Cantidad de instalaciones:</label>
+				<input type="number" name="cantidad" id="cantidad">
+
+				<button type="button" id="comenzar">
+					Comenzar carga
+				</button>
+			</fieldset>
+
+
+			<!-- DATOS DE CADA INSTALACIÓN -->
+
+			<fieldset>
+				<legend>Datos de la instalación</legend>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" disabled>
+
+				<label for="personas">Cantidad de personas</label>
+				<input type="number" name="personas" id="personas" disabled>
+
+				<label for="dias">Cantidad de días</label>
+				<input type="number" name="dias" id="dias" disabled>
+
+				<button type="button" id="agregar" disabled>
+
+					Agregar instalación
+
+				</button>
+			</fieldset>
+
+
+			<!-- DATOS GENERALES -->
+
+			<fieldset>
+				<legend>Datos generales</legend>
+
+				<label for="horas">Horas trabajadas por día</label>
+				<input type="number" name="horas" id="horas">
+
+				<label for="valorHora">Honorario por hora</label>
+				<input type="number" name="valorHora" id="valorHora">
+			</fieldset>
+
+
+			<!-- BOTONES -->
+
+			<button type="button" id="calcular" disabled>
+				Calcular resultados
+			</button>
+
+
+			<button type="button" id="reiniciar" disabled>
+				Reiniciar
+			</button>
+
+
+			<!-- RESULTADO -->
+
+			<p id="resultado"></p>
+
+		</form>
+     		</section>
      	</main>
      	<footer>
      		<address>
