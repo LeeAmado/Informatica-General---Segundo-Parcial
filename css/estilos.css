@@ -11,11 +11,11 @@ body {
 #contenedor {
 	width: 90%;
 	max-width: 960px;
-	background: rgba(255, 255, 255, 0.90);
+	background:rgba(230,215,255,0.92);
 	padding: 1.5em;
 	margin: 2em 0;
 	border-radius: 0.9em;
-	border: 0.2em solid #073040;
+	border:0.2em solid #4D00AD;
 }
 
 /* -- COLUMNAS -- */
@@ -53,10 +53,11 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin: 0.5em auto;
+	border:0.15em solid #EDE900;
 }
 
 header{
-	background:#0b6fa4;
+	background:#6A00ED;
 	color:white;
 	padding:2em;
 	text-align:center;
@@ -64,8 +65,9 @@ header{
 }
 
 h1, h2, h3 {
-	background-color: cyan;
-	border: 0.1em solid darkblue;
+	background:#FFF7A6;
+	border:0.1em solid #4D00AD;
+	color:#4D00AD;
 	font-family: "Arvo", serif;
 	text-align: center;
 	padding: 0.4em;
@@ -99,51 +101,54 @@ nav li {
 }
 
 nav a {
-	background-color: lightblue;
+	background:#B388FF;
+	color:white;
 	padding: 0.5em;
 	border-radius: 0.5em;
-	border: 0.2em solid darkblue;
+	border:0.2em solid #4D00AD;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 nav a:hover {
-	background-color: #c47c2e;
+	background:#EDE900;
+	color:#4D00AD;
 }
 
 a:link {
-	color: darkblue;
+	color:#4D00AD;
 }
 
 a:visited {
-	color: black;
+	color:#36007C;
 }
 
 a:hover {
-	color: cyan;
+	color:#EDE900;
 }
 
 a:active {
-	color: yellow;
+	color:#D8D300;
 }
 
 footer {
-	background-color: #c47c2e;
+	background:#6A00ED;
+	color:white;
 	text-align: center;
 	padding: 0.1em;
-	border: 0.1em solid darkblue;
+	border:0.15em solid #EDE900;
 	border-radius: 0.5em;
+	margin-top: 2em;
 }
 
 /* -- DATO CURIOSO -- */
 
 .dato-curioso {
-	background-color: #dff7ff;
-	border: 0.15em solid darkblue;
+	background:#FFFBE0;
+	border:0.15em solid #4D00AD;
 	border-radius: 0.6em;
 	padding: 1em;
 	margin-top: 1.5em;
-	margin-bottom: 2em;
 	text-align: center;
 }
 
@@ -153,16 +158,17 @@ footer {
 
 .dato-curioso button {
 	padding: 0.6em 1em;
-	background-color: lightblue;
-	border: 0.15em solid darkblue;
+	background:#B388FF;
+	border:0.15em solid #4D00AD;
+	color:white;
 	border-radius: 0.5em;
 	font-weight: bold;
 	cursor: pointer;
 }
 
 .dato-curioso button:hover {
-	background-color: #c47c2e;
-	color: white;
+	background:#EDE900;
+	color:#4D00AD;
 }
 
 /* ---------------- GALERÍA ---------------- */
@@ -176,7 +182,7 @@ footer {
 
 #galeria article{
 	background:white;
-	border:0.15em solid darkblue;
+	border:0.15em solid #4D00AD;
 	border-radius:0.5em;
 	padding:1em;
 	text-align:center;
@@ -194,20 +200,20 @@ footer {
 /* ------------ EJERCICIO ------------------- */
 
 form{
-	background:#dff1fb;
+	background:#F4ECFF;
 	padding:1.5em;
-	border:0.2em solid #0b6fa4;
+	border:0.2em solid #6A00ED;
 }
 
 fieldset{
 	margin-bottom:1.5em;
 	padding:1em;
-	border:0.15em solid #0b6fa4;
+	border:0.15em solid #6A00ED;
 	background:white;
 }
 
 legend{
-	background:#0b6fa4;
+	background:#6A00ED;
 	color:white;
 	padding:0.3em 0.8em;
 	font-weight:bold;
@@ -224,12 +230,12 @@ input{
 	padding:0.6em;
 	margin-top:0.3em;
 	margin-bottom:0.8em;
-	border:0.1em solid #0b6fa4;
+	border:0.1em solid #6A00ED;
 	border-radius:4px;
 }
 
 button{
-	background:#0b6fa4;
+	background:#6A00ED;
 	color:white;
 	padding:0.7em 1.2em;
 	border:none;
@@ -241,21 +247,22 @@ button{
 }
 
 button:hover{
-	background:#1591d0;
+	background:#EDE900;
+	color:#4D00AD;
 }
 
 /* Botones deshabilitados */
 
 button:disabled{
-	background:#999;
-	cursor:default;
+	background:#BDBDBD;
 } 
 
 #resultado{
 	margin-top:2em;
 	padding:1em;
-	background:#eef9ff;
-	border:0.15em solid #0b6fa4;
+	background:#FFFBE0;
+	border:0.15em solid #6A00ED;
+	color:#4D00AD;
 	font-weight:bold;
 	line-height:1.7;
 }
