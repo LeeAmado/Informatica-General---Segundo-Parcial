@@ -1,6 +1,5 @@
 // --------- GALERÍA ----------
 
-
 // Seleccionamos el contenedor donde se mostrará la galería
 let galeria = document.querySelector("#galeria");
 

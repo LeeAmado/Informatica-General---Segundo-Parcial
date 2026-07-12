@@ -33,11 +33,19 @@
      		<section> 
      			<h2>Producción de instalaciones interactivas</h2>
      			<p>Gestión de la producción del estudio artístico de Casey Reas.</p>
+     			<p><strong>Instrucciones:</strong></p>
+     			<ul>
+     				<li>Ingrese la cantidad de instalaciones y haga clic en <strong>"Comenzar carga"</strong>.</li>
+     				<li>Complete los datos de cada instalación y presione <strong>"Agregar instalación"</strong>.</li>
+     				<li>Repita el proceso hasta cargar todas las instalaciones.</li>
+     				<li>Ingrese las horas trabajadas por día y el honorario por hora.</li>
+     				<li>Finalmente, haga clic en <strong>"Calcular resultados"</strong> para visualizar el presupuesto total.</li>
+     				<li>Si desea comenzar nuevamente, utilice el botón <strong>"Reiniciar"</strong>.</li>
+     			</ul>
 
      			<form>
 
 			<!-- CANTIDAD DE INSTALACIONES -->
-
 			<fieldset>
 				<legend>Inicio</legend>
 				<label for="cantidad">Cantidad de instalaciones:</label>
@@ -48,9 +56,7 @@
 				</button>
 			</fieldset>
 
-
 			<!-- DATOS DE CADA INSTALACIÓN -->
-
 			<fieldset>
 				<legend>Datos de la instalación</legend>
 				<label for="nombre">Nombre</label>
@@ -69,9 +75,7 @@
 				</button>
 			</fieldset>
 
-
 			<!-- DATOS GENERALES -->
-
 			<fieldset>
 				<legend>Datos generales</legend>
 
@@ -82,9 +86,7 @@
 				<input type="number" name="valorHora" id="valorHora">
 			</fieldset>
 
-
 			<!-- BOTONES -->
-
 			<button type="button" id="calcular" disabled>
 				Calcular resultados
 			</button>
@@ -94,9 +96,7 @@
 				Reiniciar
 			</button>
 
-
 			<!-- RESULTADO -->
-
 			<p id="resultado"></p>
 
 		</form>
